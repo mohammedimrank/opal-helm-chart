@@ -41,6 +41,10 @@
           "type": "string", "title": "policy repo url",
           "default":"https://github.com/authorizon/opal-example-policy-repo"
         },
+        "policyRepoSshKey":{
+          "type": "string", "title": "policy repo ssh key fr private repos",
+          "default":""
+        }
         "pollingInterval": {
           "type": "integer", "title": "polling interval (sec)", "default": 30
         },
